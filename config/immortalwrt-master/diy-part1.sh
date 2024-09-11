@@ -7,7 +7,7 @@
 #========================================================================================================================
 
 # Add a feed source
-sed -i '$a src-git luci https://github.com/openwrt/luci' feeds.conf.default
+# sed -i '$a src-git luci https://github.com/openwrt/luci' feeds.conf.default
 # sed -i 's%openwrt\/telephony%dlonzyz\/telephony%g' feeds.conf.default
 # other
 # rm -rf package/emortal/{autosamba,ipv6-helper}
