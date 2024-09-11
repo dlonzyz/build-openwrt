@@ -27,6 +27,7 @@ sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generat
 
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
 git apply https://github.com/openwrt/luci.git --directory=feeds/luci
+git apply https://github.com/openwrt/packages.git --directory=feeds/packages
 #
 # ------------------------------- Other ends -------------------------------
 
