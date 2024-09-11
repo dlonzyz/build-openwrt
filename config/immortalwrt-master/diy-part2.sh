@@ -19,7 +19,8 @@ echo "DISTRIB_SOURCECODE='immortalwrt'" >>package/base-files/files/etc/openwrt_r
 sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
 #
 # ------------------------------- Main source ends -------------------------------
-
+git clone https://github.com/openwrt/packages.git package/packages
+git clone https://github.com/openwrt/luci.git package/luci
 # ------------------------------- Other started -------------------------------
 #
 # Add luci-app-amlogic
